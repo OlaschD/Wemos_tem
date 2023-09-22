@@ -92,8 +92,6 @@ const int Taster =      15;  // D8 = SPI CS = GPIO15
 
 int Taster_Status =     0;
 
-
-
 const int oneWireBus = 12; // D6 = GPIO12 = SPI SCLK
 OneWire oneWire(oneWireBus);
 DallasTemperature sensors(&oneWire);
